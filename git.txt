@@ -1,0 +1,10 @@
+git init
+git log [查看提交历史]
+git reflog [查看命令历史]
+git status
+git add readme.txt
+git commit -m "add file readme.txt"
+git reset --hard HEAD^
+git reset --hard 378d5e [git reset --hard commit_id][HEAD指向的版本就是当前版本]
+git reset HEAD readme.txt [git reset命令既可以回退版本，也可以把暂存区的修改回退到工作区。当我们用HEAD时，表示最新的版本]
+git checkout -- readme.txt [丢弃工作区的修改]
